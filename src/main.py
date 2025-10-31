@@ -7,10 +7,10 @@ Main entry point to run all or individual crawlers.
 import argparse
 import sys
 
-from crawl_indicators_docs import crawl_indicators
-from crawl_strategies_docs import crawl_strategies
-from crawl_pine_script_reference import crawl_reference
-from crawl_pine_script_docs import crawl_docs
+from src.crawl_indicators_docs import crawl_indicators
+from src.crawl_strategies_docs import crawl_strategies
+from src.crawl_pine_script_reference import crawl_reference
+from src.crawl_pine_script_docs import crawl_docs
 
 
 CRAWLERS = {
@@ -97,9 +97,10 @@ Examples:
 
     parser.add_argument(
         'crawlers',
-        nargs='+',
+        nargs='*',
         choices=list(CRAWLERS.keys()) + ['all'],
-        help='Crawler(s) to run'
+        help='Crawler(s) to run',
+        default='all'
     )
 
     args = parser.parse_args()

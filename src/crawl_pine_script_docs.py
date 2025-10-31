@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from markdownify import markdownify
 from tqdm import tqdm
 
-from utils import get_doc_links, format_title_for_filename
+from src.utils import get_doc_links, format_title_for_filename
 
 
 def crawl_docs():

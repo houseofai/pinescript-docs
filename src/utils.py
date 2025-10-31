@@ -64,8 +64,8 @@ def get_doc_links(url):
     links = [link for link in links if link != url]
 
     links = remove_duplicates(links)
-    links = remove_slash_ending_urls(links)
-    links = remove_external_links(links, base_domain=url)
+    #links = remove_slash_ending_urls(links)
+    links = remove_external_links(links)
     return links
 
 

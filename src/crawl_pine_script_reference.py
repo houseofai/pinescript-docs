@@ -4,7 +4,7 @@ import time
 from bs4 import BeautifulSoup
 from markdownify import markdownify
 
-from utils import create_selenium_driver, format_title_for_filename
+from src.utils import create_selenium_driver, format_title_for_filename
 
 
 def crawl_reference():

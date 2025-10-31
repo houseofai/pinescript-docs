@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from markdownify import markdownify
 from tqdm import tqdm
 
-from utils import (
+from src.utils import (
     create_selenium_driver,
     get_doc_links,
     clean_html_content,

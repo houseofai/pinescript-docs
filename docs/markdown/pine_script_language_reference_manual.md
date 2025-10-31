@@ -20,7 +20,7 @@ See also
 
 [open](#var_open)[high](#var_high)[low](#var_low)[volume](#var_volume)[time](#fun_time)[hl2](#var_hl2)[hlc3](#var_hlc3)[hlcc4](#var_hlcc4)[ohlc4](#var_ohlc4)[bid](#var_bid)
 
-### bar\_index
+### bar_index
 
 Current bar index. Numbering is zero-based, index of the first bar is 0.
 
