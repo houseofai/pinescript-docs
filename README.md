@@ -1,0 +1,4 @@
+- pine-script-docs: https://www.tradingview.com/pine-script-docs/
+- pine-script-reference: https://www.tradingview.com/pine-script-reference/v6/
+- built-in-indicators: https://www.tradingview.com/support/folders/43000587405-built-in-indicators/
+- built-in-strategies: https://www.tradingview.com/support/folders/43000587406-built-in-strategies/
